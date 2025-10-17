@@ -1,0 +1,9 @@
+body{font-family:Inter,Arial,Helvetica,sans-serif;max-width:900px;margin:20px auto;padding:0 16px;color:#111}
+.top{display:flex;justify-content:space-between;align-items:center}
+.table{width:100%;border-collapse:collapse;margin-top:12px}
+.table th,.table td{border:1px solid #ddd;padding:8px}
+.errors{background:#ffdede;padding:8px;border:1px solid #ffbcbc}
+form label{display:block;margin:8px 0}
+input,textarea,select{width:100%;padding:6px}
+.pagination a{margin:4px;padding:6px 8px;border:1px solid #ccc;text-decoration:none}
+.pagination a.active{background:#333;color:#fff}

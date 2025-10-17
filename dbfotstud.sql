@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS photo_studio DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE photo_studio;
+
+
+CREATE TABLE IF NOT EXISTS bookings (
+id INT AUTO_INCREMENT PRIMARY KEY,
+customer_name VARCHAR(255) NOT NULL,
+phone VARCHAR(50),
+email VARCHAR(255),
+service_type VARCHAR(100) NOT NULL,
+booking_date DATE NOT NULL,
+booking_time TIME DEFAULT NULL,
+notes TEXT,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
